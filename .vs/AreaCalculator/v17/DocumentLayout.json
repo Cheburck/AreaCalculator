@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\Projects C#\\AreaCalculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6C558FD-DDF7-4664-86C8-9C5EEBBF3D71}|AreaCalculator.csproj|d:\\projects c#\\areacalculator\\interfaces\\iarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6C558FD-DDF7-4664-86C8-9C5EEBBF3D71}|AreaCalculator.csproj|solutionrelative:interfaces\\iarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6C558FD-DDF7-4664-86C8-9C5EEBBF3D71}|AreaCalculator.csproj|d:\\projects c#\\areacalculator\\unittests\\circletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C558FD-DDF7-4664-86C8-9C5EEBBF3D71}|AreaCalculator.csproj|solutionrelative:unittests\\circletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C558FD-DDF7-4664-86C8-9C5EEBBF3D71}|AreaCalculator.csproj|d:\\projects c#\\areacalculator\\models\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C558FD-DDF7-4664-86C8-9C5EEBBF3D71}|AreaCalculator.csproj|solutionrelative:models\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C558FD-DDF7-4664-86C8-9C5EEBBF3D71}|AreaCalculator.csproj|d:\\projects c#\\areacalculator\\models\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C558FD-DDF7-4664-86C8-9C5EEBBF3D71}|AreaCalculator.csproj|solutionrelative:models\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6C558FD-DDF7-4664-86C8-9C5EEBBF3D71}|AreaCalculator.csproj|d:\\projects c#\\areacalculator\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C558FD-DDF7-4664-86C8-9C5EEBBF3D71}|AreaCalculator.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C558FD-DDF7-4664-86C8-9C5EEBBF3D71}|AreaCalculator.csproj|d:\\projects c#\\areacalculator\\interfaces\\iarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C558FD-DDF7-4664-86C8-9C5EEBBF3D71}|AreaCalculator.csproj|solutionrelative:interfaces\\iarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,19 +39,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CircleTests.cs",
+              "DocumentMoniker": "D:\\Projects C#\\AreaCalculator\\UnitTests\\CircleTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\CircleTests.cs",
+              "ToolTip": "D:\\Projects C#\\AreaCalculator\\UnitTests\\CircleTests.cs",
+              "RelativeToolTip": "UnitTests\\CircleTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T16:35:40.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Triangle.cs",
+              "DocumentMoniker": "D:\\Projects C#\\AreaCalculator\\Models\\Triangle.cs",
+              "RelativeDocumentMoniker": "Models\\Triangle.cs",
+              "ToolTip": "D:\\Projects C#\\AreaCalculator\\Models\\Triangle.cs",
+              "RelativeToolTip": "Models\\Triangle.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T15:58:04.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "D:\\Projects C#\\AreaCalculator\\Models\\Circle.cs",
+              "RelativeDocumentMoniker": "Models\\Circle.cs",
+              "ToolTip": "D:\\Projects C#\\AreaCalculator\\Models\\Circle.cs",
+              "RelativeToolTip": "Models\\Circle.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T15:55:53.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IArea.cs",
               "DocumentMoniker": "D:\\Projects C#\\AreaCalculator\\Interfaces\\IArea.cs",
               "RelativeDocumentMoniker": "Interfaces\\IArea.cs",
               "ToolTip": "D:\\Projects C#\\AreaCalculator\\Interfaces\\IArea.cs",
               "RelativeToolTip": "Interfaces\\IArea.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T15:52:07.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Projects C#\\AreaCalculator\\Class1.cs",
               "RelativeDocumentMoniker": "Class1.cs",

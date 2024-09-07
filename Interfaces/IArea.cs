@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AreaCalculator.Interfaces
+namespace AreaCalculator.Interfaces;
+
+public interface IArea
 {
-    internal interface IArea
-    {
-    }
+    public double GetArea();
 }
