@@ -1,30 +1,28 @@
 ﻿using AreaCalculator.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace AreaCalculator.Models;
 
-public class Triangle : IArea
+public class Triangle : IFigure
 {
     public readonly double A;
     public readonly double B;
     public readonly double C;
 
     private bool? isRightAngled;
+    private double precision = 1e-9;
     public Triangle(double a, double b, double c)
     {
         if(!IsTriangle(a, b, c))
             throw new ArgumentException("All sides must be positive. Any side must be less then two other sides\n" 
-                +$"Sides : {a}, {b}, {c}");
+                +$"But was : {a}, {b}, {c}");
 
         A = a;
         B = b;
         C = c;
     }
-
+    
     public double GetArea()
     {
         //  Heron's formula
@@ -39,10 +37,9 @@ public class Triangle : IArea
         {
             var sides = new double[] {A, B, C};
             Array.Sort(sides);
-
-            var _isRightAngled = Math.Abs(sides[0] * sides[0] + sides[1] * sides[1] - sides[2] * sides[2]) 
-                < double.Epsilon;
-            isRightAngled = _isRightAngled;
+            var sumLegSquares = sides[0] * sides[0] + sides[1] * sides[1];
+            var hypotenuseSquare = sides[2] * sides[2];
+            isRightAngled = Math.Abs(sumLegSquares - hypotenuseSquare) < precision;
         }
 
         return isRightAngled.Value;

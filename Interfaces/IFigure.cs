@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AreaCalculator.Interfaces;
 
-public interface IArea
+public interface IFigure
 {
     public double GetArea();
 }

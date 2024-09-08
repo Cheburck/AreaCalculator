@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace AreaCalculator.Models;
 
-public class Circle : IArea
+public class Circle : IFigure
 {
     public readonly double Radius;
 
     public Circle (double radius)
     {
         if (radius < 0)
-            throw new ArgumentException("Radius must be positive value\n" + $"Radius: {Radius}");
+            throw new ArgumentException($"Radius must be positive value but was: {radius}");
 
         Radius = radius;
     }
